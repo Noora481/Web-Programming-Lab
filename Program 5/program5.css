@@ -9,12 +9,25 @@ textarea {
 fieldset {
       padding: 15px;
       margin-bottom: 15px;
+      background-color:skyblue;
     }
     
 form {
-      padding:25px;  
+      padding:25px; 
+      color:green; 
     }
     
 h1 {
       text-align: center;
     }
+ 
+input[type=submit]{
+background-color: darkgreen;
+color: white;
+padding: 16px 32px;
+}
+input[type=reset]{
+background-color: darkgreen;
+color: white;
+padding: 16px 32px;
+}
