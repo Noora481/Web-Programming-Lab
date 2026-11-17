@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Mouse Over></title>
+<style> 
+img {
+	border-radius: 50%;
+	position:absolute;
+	top:25%;
+	left:25%;
+	paddding:16px 30px;
+}
+p{
+	position: absolute;
+	top: 85%;
+	left: 45%;
+}
+</style>
+</head>
+
+<body>
+<img src="/home/mca/Noora/Program8/img1.jpeg" id="image" onmouseover="one()" onmouseout="two()">
+<p id="p1">
+</p>
+<script>
+
+function one()
+{
+document.getElementById("image").src="img2.jpeg";
+document.getElementById("p1").innerHTML="onmouseover";
+document.getElementById("p1").style.color="blue";
+}
+function two()
+{
+document.getElementById("image").src="img3.jpeg";
+document.getElementById("p1").innerHTML="onmouseout";
+document.getElementById("p1").style.color="red";
+}
+</script>
+
+</html>
